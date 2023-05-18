@@ -1,0 +1,116 @@
+@charset "UTF-8";
+body {
+  background-color: rgb(204, 202, 202);
+  margin: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .main-image {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 652px;
+    top: 157px;
+  }
+}
+@media (max-width: 600px) {
+  .main-image {
+    flex-direction: column;
+    position: relative;
+    right: 337px;
+    top: 234px;
+  }
+}
+@media (max-width: 800px) {
+  .text-item {
+    width: 620px;
+    position: relative;
+    top: 400px;
+    height: 370px;
+  }
+}
+@media (max-width: 600px) {
+  .text-item {
+    width: 300px;
+    position: relative;
+    top: 730px;
+  }
+}
+.text {
+  width: 620px;
+  margin-right: 30px;
+}
+
+@media (max-width: 800px) {
+  .text-1 {
+    width: 620px;
+  }
+}
+@media (max-width: 600px) {
+  .text-1 {
+    width: 300px;
+  }
+}
+.image-1 {
+  width: 300px;
+  height: 337px;
+  background: url(../image/cat-1.jpg) no-repeat;
+  border-radius: 0px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: end;
+  border-radius: 17px;
+}
+
+@media (max-width: 800px) {
+  .image-1 {
+    margin-right: 20px;
+  }
+}
+.coment-1 {
+  width: 300px;
+  height: 37px;
+  color: #f7f7f7;
+  background-color: rgb(34, 69, 145);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0px 17px 0px 0px;
+  border-radius: 0px 0px 17px 17px;
+}
+
+.image-2 {
+  width: 300px;
+  height: 375px;
+  background: url(../image/кіт-2.jpg) no-repeat;
+  border-radius: 17px;
+  display: flex;
+  align-items: end;
+}
+
+.coment-2 {
+  height: 75px;
+  color: #f7f7f7;
+  background-color: rgb(34, 69, 145);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0px 16px 0px 29px;
+  text-align: end;
+  border-radius: 0px 0px 17px 17px;
+}
+
+.cat {
+  width: 230px;
+  height: 230px;
+  border-radius: 0px;
+}/*# sourceMappingURL=index.css.map */

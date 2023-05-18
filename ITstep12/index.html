@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="head">
+                <h3 class="zer">CREDIT CARD DETALIS</h3>
+            </div>
+            <form class="serif" action="#">
+                <p><label for="Number">Card Number</label></p>
+                <input id="Number" type="text" placeholder="1234 5678 9012 3456">
+                <p><label for="Name">Name On Card</label></p>
+                <input type="text" name="Name" id="Name" placeholder="Name Surname">
+                <div class="main-item">
+                    <div class="main-month">
+                        <label class="month" for="month">Expiry Date</label>
+                        <input type="month" name="month" id="month" placeholder="none">
+                    </div>
+                    <div class="main-data">
+                        <input type="date" name="date" id="date" placeholder="02">
+                    </div>
+                    <div class="CVV">
+                        <label class="pass" for="password">CVV/CVN</label>
+                        <input type="password" id="password" placeholder="***">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="content">
+            <form class="form" action="#">
+                <label class="dolst" for="#">
+                    <h2>Inputs</h2>
+                </label>
+                <input class="field-res" type=" text" id="bost" placeholder="Enter some">
+                <input class="field" type="text" id="cost" placeholder="valid text">
+                <input class="field" required type="text" id="sum" placeholder="invalid text" min="1">
+                <label for="#">
+                    <h2 class="h2">Check boxes</h2>
+                </label>
+                <div class="main-checkbox">
+                    <div class="checkbox">
+                        <label class="flag">
+                            <input class="ter" type="checkbox">
+                            <span class="fik"></span>Subscribe
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label class="flag">
+                            <input class="ter" type="checkbox" checked>
+                            <span class="fik"></span>Subscribe
+                        </label>
+                    </div>
+                </div>
+                <label for="#">
+                    <h2 class="h3">Radio Buttons</h2>
+                </label>
+                <div class="radio">
+                    <div class="radiobuttons">
+                        <span class="span"> Gender:</span>
+                        <div class="radiobuttons_item">
+                            <label><input class="real" type="radio" name="category"><span class="castom"></span>
+                                Male</label>
+                        </div>
+                        <div class="radiobuttons_item">
+                            <label><input class="real" type="radio" name="category"><span class="castom"></span>
+                                Famale</label>
+                        </div>
+                    </div>
+                </div>
+                <label for="#">
+                    <h2 class="h2">Buttoms</h2>
+                </label>
+                <div class="main-buttons">
+                    <button class="button one">Active</button>
+                    <button class="button two">Hover</button>
+                    <button class="button three">Danger</button>
+                    <button class="button four">Hover</button>
+                    <button class="button five">Disabled</button>
+                    <button class="buttoncircle six"></button>
+                    <button class="buttoncircle seven"></button>
+                </div>
+                <label for="#">
+                    <h2 class="h2">Text area</h2>
+                </label>
+                <div class="area"></div>
+                <textarea name="area" id="#" cols="43" rows="5" placeholder="Enter some text"></textarea>
+            </form>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="field-data">
+            <form class="big" action="#">
+                <div class="main-data-user">
+                    <div class="data-user">
+                        <div class="if">
+                            <label for="#">
+                                <h3> Rgistracion form</h3>
+                            </label>
+                            <div class="doc">
+                                <div class="img-1"></div><input type="text" placeholder=" Username">
+                            </div>
+                            <div class="doc">
+                                <div class="img-2"></div> <input type="email" placeholder=" Email address">
+                            </div>
+                        </div>
+                        <div class="cod">
+                            <div class="lock">
+                                <div class="img-3"></div>
+                                <input type="password" placeholder=" Password">
+                            </div>
+                            <input class="confirm" type="password" placeholder=" Confirm password">
+                        </div>
+                    </div>
+                    <div class="data-user-2">
+                        <div class="detalis">
+                            <label for="#">
+                                <h3>Personal detalis</h3>
+                            </label>
+                            <div class="detalis-1">
+                                <input type="text" placeholder=" First name">
+                                <input class="dros" type="text" placeholder=" Last name">
+                            </div>
+                            <div class="detalis-2">
+                                <select class="gender">
+                                    <option value=" male">male</option>
+                                    <option value=" famale">famale</option>
+                                </select>
+                                <input class="year" type="date">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="agreement">
+                    <div class="disagreemet">
+                        <input type="checkbox">
+                        I want to receive mews and special offers
+                    </div>
+                    <div class="consent">
+                        <input type="checkbox">
+                        I agree with the Teams and Conditions
+                    </div>
+                </div>
+                <div class="submit">
+                    <button class="blue-klick" type="submit">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+.clock {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 5px solid rgb(7, 52, 150);
+  border-radius: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.clock .center {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(7, 52, 150);
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.clock .hour {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  animation: time 60s infinite linear;
+}
+
+.clock .hour:before {
+  content: "";
+  height: 115px;
+  width: 5px;
+  background-color: rgb(7, 52, 150);
+  position: absolute;
+  top: 30px;
+}
+
+.clock .minute {
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  animation: time 30s infinite linear;
+}
+
+.clock .minute:before {
+  position: absolute;
+  content: "";
+  background-color: rgb(7, 52, 150);
+  height: 100px;
+  width: 2px;
+  top: 50px;
+}
+
+@keyframes time {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.box {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  background-color: rgb(161, 22, 68);
+  height: 300px;
+  width: 450px;
+  border: 10px solid rgba(68, 70, 75, 0.7);
+  position: relative;
+}
+
+.block-2 {
+  background-color: rgb(161, 22, 68);
+  height: 300px;
+  width: 450px;
+  border: 10px solid rgba(68, 70, 75, 0.7);
+}
+
+.box:hover .block {
+  animation-name: card-1;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.box:hover .block-2 {
+  animation-name: card-2;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes card-1 {
+  to {
+    transform: perspective(400px) rotatey(40deg);
+  }
+}
+@keyframes card-2 {
+  to {
+    transform: perspective(400px) rotatey(-40deg);
+  }
+}
+.text {
+  position: absolute;
+  visibility: hidden;
+}
+
+.box:hover .text {
+  animation-name: text;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes text {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+.pfoto {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(206, 206, 206);
+  width: 600px;
+  height: 400px;
+}
+
+.sos {
+  width: 600px;
+  background-image: url(..//thousand_words_01.jpg);
+  height: 400px;
+}
+
+.pfoto:hover .post {
+  animation-name: shadow;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.pfoto:hover .sos {
+  animation-name: shadow;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shadow {
+  from {
+    filter: brightness(100%);
+  }
+  to {
+    filter: brightness(40%);
+  }
+}/*# sourceMappingURL=index.css.map */

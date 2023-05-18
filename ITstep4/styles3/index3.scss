@@ -1,0 +1,370 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background-color: rgb(231, 230, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+
+.img-1 {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.img-2 {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.head {
+    width: 1000px;
+    height: 90px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.head-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu {
+    margin-top: 10px;
+
+}
+
+.set {
+    width: 170px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 25px;
+    margin: 15px 0px 0px 15px;
+}
+
+.set:hover {
+    background: fixed;
+    background-color: rgb(253, 214, 181);
+}
+
+.set p {
+    margin-left: 0px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.message {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 30px;
+    margin-top: 10px;
+
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 738px;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    padding-right: 0px;
+}
+
+.pod {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post .data {
+    display: flex;
+    justify-content: end;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    width: 210px;
+}
+
+.box-star {
+    margin-right: 10px;
+}
+
+.text {
+    width: 443px;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.scrap {
+    display: flex;
+    align-items: center;
+}
+
+.mouth {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.mouth-2 {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 27px;
+}
+
+.span {
+    color: #b4b4b4;
+}
+
+.par {
+    margin-right: 30px;
+}
+
+.par-2 {
+    text-overflow: ellipsis;
+}
+
+@media (max-width:800px) {
+
+
+    .main {
+        width: 550px;
+    }
+
+    .head {
+        width: 510px;
+    }
+
+    .menu {
+        width: 160px;
+    }
+
+    .set {
+        width: 135px;
+        height: 40px;
+        padding-left: 15px;
+        margin: 5px 0px 0px 10px;
+        font-size: 13px;
+    }
+
+    .message {
+        min-width: 200px;
+        padding-right: 0px;
+    }
+
+    .image {
+        width: 25px;
+        height: 25px;
+    }
+
+    .post {
+        display: flex;
+        width: 360px;
+        border-bottom: 1px solid gray;
+        font-size: 13px;
+        padding-right: 0px;
+        align-items: start;
+    }
+
+
+    .par {
+        margin: 0px;
+    }
+
+    .star {
+        width: 15px;
+        height: 15px;
+    }
+
+    .par-2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .name {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .text {
+        width: 253px;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+
+    .pod {
+        width: 278px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        padding-top: 5px;
+    }
+
+    .data {
+        width: 99px;
+        height: 40px;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 5px;
+    }
+
+    .mouth {
+        display: flex;
+        align-items: start;
+        margin: 0px 0px 0px 27px;
+    }
+
+    .mouth-2 {
+        margin: 0px 0px 0px 43px;
+
+    }
+
+}
+
+
+
+
+
+@media(max-width:550px) {
+
+    .main {
+        width: 450px;
+    }
+
+    .head {
+        width: 410px;
+    }
+
+    .menu {
+        width: 100px;
+        margin-left: 15px;
+    }
+
+    .set {
+        width: 40px;
+        height: 40px;
+        padding-left: 15px;
+        margin: 5px 0px 0px 10px;
+        font-size: 13px;
+        text-overflow: clip;
+
+    }
+
+    .sum {
+        display: none;
+        width: 50px;
+        text-overflow: clip;
+
+    }
+
+    .message {
+        min-width: 200px;
+        padding-right: 0px;
+    }
+
+    .image {
+        width: 25px;
+        height: 25px;
+    }
+
+    .post {
+        display: flex;
+        width: 330px;
+        border-bottom: 1px solid gray;
+        font-size: 13px;
+        padding-right: 0px;
+        align-items: start;
+        margin-right: 10px;
+    }
+
+
+    .par {
+        margin: 0px;
+    }
+
+    .star {
+        width: 15px;
+        height: 15px;
+    }
+
+    .par-2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .name {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .text {
+        width: 214px;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+
+    .pod {
+        width: 278px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        padding-top: 5px;
+    }
+
+    .data {
+        width: 99px;
+        height: 40px;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 5px;
+    }
+
+    .mouth {
+        display: flex;
+        align-items: start;
+        margin: 0px 0px 0px 27px;
+    }
+
+    .mouth-2 {
+        margin: 0px 0px 0px 43px;
+
+    }
+
+
+}

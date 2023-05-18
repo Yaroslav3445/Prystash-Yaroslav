@@ -1,0 +1,44 @@
+.block-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.parent-block {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-left: 20px;
+
+}
+
+#cm1 {
+    position: absolute;
+    top: 174px;
+    left: 46px;
+    width: 160px;
+    height: 20px;
+}
+
+#cm2 {
+    position: absolute;
+    top: 174px;
+    left:267px;
+    width: 160px;
+    height: 20px;
+}
+
+#cm3 {
+    position: absolute;
+    top: 174px;
+    left: 487px;
+    width: 160px;
+    height: 20px;
+     }
+
+#cm4 {
+    position: absolute;
+    top: 174px;
+    left:709px;
+    width: 160px;
+    height: 20px;
+}
