@@ -1,0 +1,240 @@
+:root {
+  --color1: rgb(8, 62, 124);
+  --color2: rgb(119, 119, 119);
+}
+
+.item__font {
+  font-weight: 200;
+}
+
+.bost {
+  margin: 35px 0px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+.nav__ul {
+  margin-left: 20px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.img-2 {
+  width: 40px;
+  height: 40px;
+  margin-right: 25px;
+}
+
+.body_color {
+  background: var(--color1);
+}
+
+.item__box {
+  border-radius: 3px;
+}
+
+.item_window h3 {
+  margin: 10px 10px;
+}
+.item_window p {
+  margin: 10px;
+}
+.item_window .item_time p {
+  color: var(--color2);
+}
+
+.log__wrapper {
+  width: 366px;
+}
+
+.log__ewards {
+  max-width: 650px;
+}
+
+.log__ward {
+  display: flex;
+  flex-direction: column;
+}
+.log__ward p {
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 4px;
+  padding: 0px 7px;
+  margin: 16px 0px 0px 0px;
+}
+
+.log__text {
+  width: 90px;
+}
+
+.log__weight {
+  font-weight: 500;
+}
+
+.log__img-1 {
+  width: 10px;
+  height: 10px;
+}
+
+.log__img-2 {
+  width: 15px;
+  height: 15px;
+}
+
+.log__img-3 {
+  width: 30px;
+  height: 30px;
+}
+
+.log__pfoto {
+  margin: 12px 0px 0px 0px;
+}
+
+.log__button {
+  margin-top: 30px;
+}
+
+.log__button-2 {
+  margin-top: 25px;
+}
+
+.res__carret {
+  height: 130px;
+}
+.res__carret h2 {
+  font-weight: 200;
+}
+
+.curcle {
+  width: 17px;
+  height: 17px;
+  border: 1px solid rgb(168, 164, 164);
+  border-radius: 50%;
+}
+
+.lops__card {
+  width: 350px;
+}
+
+.lops__inp {
+  width: 100%;
+}
+
+.lops__selt {
+  width: 90%;
+  margin: auto 0px;
+  border: 1px solid rgb(168, 164, 164);
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.lops__selt input {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.lops__selt button {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.lops__form {
+  margin-top: 20px;
+}
+
+.blue__card {
+  width: 350px;
+}
+.blue__card span {
+  height: 18px;
+  font-size: 10px;
+  border-radius: 40%;
+}
+.blue__card .blue__buttons {
+  margin-bottom: 15px;
+}
+.blue__card .blue__button {
+  width: 315px;
+}
+.blue__card .blue__button img {
+  width: 17px;
+  height: 15px;
+  margin-bottom: 5px;
+}
+.blue__card button {
+  height: 38px;
+}
+.blue__card .blue__bord {
+  border-right: 1px solid white;
+}
+
+.ht-Cs {
+  width: 100%;
+  border-bottom: 1px solid rgb(196, 194, 194);
+  margin-top: 50px;
+}
+.ht-Cs h2 {
+  font-weight: 200;
+}
+
+.box__rest {
+  margin-top: 15px;
+}
+
+.box__res-2 {
+  margin-top: 15px;
+}
+
+.tur {
+  height: 120px;
+}
+
+.tur__set {
+  font-weight: 200;
+}
+
+.info {
+  height: 50px;
+  color: rgb(17, 67, 143);
+}
+
+.info__text {
+  width: 100%;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.register {
+  margin-top: 20px;
+}
+
+.register__pfoto {
+  margin-top: 15px;
+}
+
+.register__form {
+  border: none;
+}
+
+.register__img {
+  width: 137px;
+  height: 137px;
+}
+
+.register__button {
+  margin-top: 7px;
+}
+
+.register__name input {
+  margin-bottom: 10px;
+}
+
+.register__password {
+  margin-left: 12px;
+}/*# sourceMappingURL=index.css.map */

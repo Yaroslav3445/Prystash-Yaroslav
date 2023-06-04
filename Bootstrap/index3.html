@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light body_color">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarTogglerDemo01">
+                <ul class="navbar-nav nav__ul">
+                    <li class="nav-item ">
+                        <img class="img"
+                            src="C:\Users\1\Desktop\ITstep14\image\user-with-computer-monitor-and-bar-graphs.png"
+                            alt="">
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active text-secondary  " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary " href="index2.html">Homework</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white checked" href="index3.html" tabindex="-1" aria-disabled="true">Seetting</a>
+                    </li>
+                </ul>
+                <div class="icons">
+                    <img class="img-2" src="C:\Users\1\Desktop\ITstep14\image\woman.png" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="tur d-flex align-items-center justify-content-center">
+            <h1 class="tur__set">Settings</h1>
+        </div>
+        <div class="info bg-primary-subtle   d-flex ">
+            <div class="d-flex flex-row  info__menu"></div>
+            <ul class="d-flex flex-row justify-content-between align-items-center   info__text">
+                <li class="d-flex justify-content-center col-1">AVATAR</li>
+                <li class="d-flex justify-content-center col-2">STUDENT INFO</li>
+                <li class=" d-flex justify-content-center col-5" ->CHANGE PASSWORD</li>
+            </ul>
+        </div>
+        <div class="register d-flex flex-row justify-content-between">
+            <div class="register__choose">
+                <div class="register__pfoto"><img class="register__img" src="image/woman.png" alt=""></div>
+                <button class="col-12 btn bg-dark bg-opacity-50 text-white register__button">Choose photo</button>
+            </div>
+            <form class="d-flex flex-row justify-content-between form-control register__form">
+                <div class="d-flex flex-column col-6 register__name">
+                    <input class="form-control form-control-sm" type="text" placeholder="First-name">
+                    <input class="form-control form-control-sm" type="text" placeholder="Last-name">
+                    <input class="form-control form-control-sm" type="email" placeholder="Email">
+                    <input class="form-control form-control-sm" type="number" placeholder="Phone number">
+                    <input class="form-control form-control-sm" type="text" placeholder="Address">
+                    <input class="form-control form-control-sm" type="text" placeholder="FBlink">
+                    <button class=" btn bg-dark bg-opacity-50 text-white ">Save changes</button>
+                </div>
+                <div class="d-flex flex-column col-6  register__name register__password">
+                    <input class="form-control form-control-sm" type="text" placeholder="Old password">
+                    <input class="form-control form-control-sm" type="text" placeholder="New password">
+                    <input class="form-control form-control-sm" type="email" placeholder="Repeat password">
+                    <button class=" btn bg-dark bg-opacity-50 text-white ">Changes password</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
